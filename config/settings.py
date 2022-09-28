@@ -82,7 +82,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'paracetamal_teste_2',
         'USER': 'root',
-        'PASSWORD': '123456',
+        'PASSWORD': '12345678',#senha do mysql
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
