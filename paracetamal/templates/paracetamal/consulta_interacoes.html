@@ -5,6 +5,7 @@
 
 
 {% block content %}
+<main class="ci_main acessibilidade">
     <div class="mt-3">
         <a href="{% url 'index' %}"></a>
         <a href="{% url 'index' %}">Home</a>
@@ -39,7 +40,7 @@
                 </form>
             </div>
         </div>
-
+    </main>
     {% if user.id  is  none %}
     <!-- Modal pop-up que abrirá com a mensagem de alerta de responsabilidade-->
     <div id="dv-modal" class="modal container">
